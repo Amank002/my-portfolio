@@ -17,14 +17,6 @@ const Skills = () => {
       icon: Palette,
       title: "Tools & Technologies",
       skills: ["Git", "VS Code", "PyCharm", "Advanced MS Excel"]
-    },
-    {
-      icon: Award,
-      title: "Certifications",
-      skills: [
-        "Python Programming (Udemy, 2025)",
-        "Azure AI Essentials (LinkedIn, 2024)"
-      ]
     }
   ];
 
@@ -38,7 +30,7 @@ const Skills = () => {
           <p className="text-muted-foreground text-lg">Technologies and tools I work with</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => {
             const Icon = category.icon;
             return (
